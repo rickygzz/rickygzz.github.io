@@ -93,34 +93,34 @@
         <form class="body-workarea">
             <div class="row">
                 <div class="left">
-                    <label for="cakeFlavor">Select up to 4 cake types:</label><br>
+                    <label for="cakeFlavor">Select up to 4 cake types:<br><br>select 1 flavor = you get a whole cake<br>select 2 flavors = you get half and half<br>select 4 flavors = you get a quater piece each)</label><br><br>
                     <input type="checkbox" id="cakeFlavor1" name="cakeFlavor1" value="">
-                    <label for="cakeFlavor1">Vanilla</label><br>
+                    <label for="cakeFlavor1">Vanilla +$20/whole cake (+$5/quarter slice)</label><br>
                     <input type="checkbox" id="cakeFlavor2" name="cakeFlavor2" value="">
-                    <label for="cakeFlavor2">Chocolate</label><br>
+                    <label for="cakeFlavor2">Chocolate +$20/whole cake (+$5/quarter slice)</label><br>
                     <input type="checkbox" id="cakeFlavor3" name="cakeFlavor3" value="">
-                    <label for="cakeFlavor3">Coffee</label><br>
+                    <label for="cakeFlavor3">Coffee +$20/whole cake (+$5/quarter slice)</label><br>
                     <input type="checkbox" id="cakeFlavor4" name="cakeFlavor4" value="">
-                    <label for="cakeFlavor4">Tres Leches</label><br>
+                    <label for="cakeFlavor4">Tres Leches +$20/whole cake (+$5/quarter slice)</label><br>
                 </div>
                 <div class="right">
                     <label for="cakeDecoration">Cake decoration:</label><br>
                     <input type="checkbox" id="decoration1" name="decoration1" value="">
-                    <label for="decoration1">Cake candles</label><br>
+                    <label for="decoration1">Cake candles +$2</label><br>
                     <input type="checkbox" id="decoration2" name="decoration2" value="">
-                    <label for="decoration2">Cake sparkler candle</label><br>
+                    <label for="decoration2">Cake sparkler candle +$1.5</label><br>
                     <input type="checkbox" id="decoration3" name="decoration3" value="">
-                    <label for="decoration3">Happy Birthday</label><br>
+                    <label for="decoration3">Happy Birthday +$4</label><br>
                     <input type="checkbox" id="decoration4" name="decoration4" value="">
-                    <label for="decoration4">Happy Anniversary</label><br>
+                    <label for="decoration4">Happy Anniversary +$4</label><br>
                     <input type="checkbox" id="decoration5" name="decoration5" value="">
-                    <label for="decoration5">Happy Mother's Day</label><br>
+                    <label for="decoration5">Happy Mother's Day +$4</label><br>
                     <input type="checkbox" id="decoration6" name="decoration6" value="">
-                    <label for="decoration6">Congratulations</label><br>
+                    <label for="decoration6">Congratulations +$4</label><br>
                     <input type="checkbox" id="decoration7" name="decoration7" value="">
-                    <label for="decoration7">Thank you</label><br>
+                    <label for="decoration7">Thank you +$4</label><br>
                     <input type="checkbox" id="decoration8" name="decoration8" value="">
-                    <label for="decoration8">I Love You</label><br>
+                    <label for="decoration8">I Love You +$4</label><br>
                 </div>
             </div>
             <div class="row">
@@ -155,6 +155,10 @@
                     <label for="deliveryDate">Choose a delivery date:</label><br>
                     <input type="date" id="deliveryDate" name="deliveryDate"><br><br>
                 </div>
+            </div>
+            <div class="row row-center">
+                <label for="notes">Additional notes:</label><br><br>
+                <textarea id="w3review" name="notes" rows="4" cols="50"></textarea>
             </div>
             <div class="row row-center">
                 <input class="button" type="submit" value="Add to shipping cart">
