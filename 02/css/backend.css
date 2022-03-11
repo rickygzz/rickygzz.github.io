@@ -1,0 +1,25 @@
+table
+{
+    width: 100%;
+}
+
+th
+{
+    background-color: var(--secondary-dark);
+    text-align: center;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+tr
+{
+    border: 1px solid var(--secondary-light);
+}
+
+td
+{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
