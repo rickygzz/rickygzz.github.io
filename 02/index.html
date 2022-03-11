@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake-co: The cake shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+
+
+    <link href="css/slideshow.css" type="text/css" rel="stylesheet">
+    <script src="js/slideshow.js"></script>
+
+    <link href="css/general.css" type="text/css" rel="stylesheet">
+    <link href="css/header.css" type="text/css" rel="stylesheet">
+    <link href="css/footer.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+    <div class="row row-tb-0pad header-logo">
+        <a class="col12" href="index.html"><img src="img/cakeco-stroke.png" class="logo" alt="cake-co"></a>
+    </div>
+
+    <!-- Home content start -->
+    <div class="deco">
+
+    </div>
+
+    <div class="row row-tb-0pad menu">
+        <div class="col12">
+            <ul class="menu-ul">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="cakes.html">Cakes</a></li>
+                <li class="menu-item"><a href="testimonials.html">Testimonials</a></li>
+                <li class="menu-item"><a href="aboutus.html">About us</a></li>
+                <li class="menu-item"><a href="signup.html">Sign up</a></li>
+                <li class="menu-item"><a href="login.html">Log-in</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row row-tb-0pad menu-dripping">
+        <div class="nav">
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+
+
+    <!-- Home content start -->
+    <div class="row row-tb-0pad">
+        <div class="title-container">
+            <div class="slideshow-container dishes-container">
+                <div class="carousel-inner">
+                    <div class="mySlides fade" style="display:block">
+                        <img class="round-dish" src="img/chocolate.jpg">
+                    </div>
+                    <div class="mySlides fade">
+                        <img class="round-dish" src="img/vainilla.jpg">
+                    </div>
+                    <div class="mySlides fade">
+                        <img class="round-dish" src="img/coffee.jpg">
+                    </div>
+                    <div class="mySlides fade">
+                        <img class="round-dish" src="img/tresleches.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="title">
+                <div class="title-big"><h1>Cakes, the way you want them!</h1></div>
+                <div class="title-right">
+                    <div class="quote">&#8220;</div>
+                    <div class="quote-text">The most tasty cakes at one-click distance.&#8221</div>
+                    <div class="quote-author">Chef Marie Lee</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Content start -->
+<div class="body">
+    <div class="body-section-title">
+        Order now!
+    </div>
+
+    <div class="body-section">
+        <form class="body-workarea">
+            <div class="row">
+                <div class="left">
+                    <label for="cakeFlavor">Select up to 4 cake types:</label><br>
+                    <input type="checkbox" id="cakeFlavor1" name="cakeFlavor1" value="">
+                    <label for="cakeFlavor1">Vanilla</label><br>
+                    <input type="checkbox" id="cakeFlavor2" name="cakeFlavor2" value="">
+                    <label for="cakeFlavor2">Chocolate</label><br>
+                    <input type="checkbox" id="cakeFlavor3" name="cakeFlavor3" value="">
+                    <label for="cakeFlavor3">Coffee</label><br>
+                    <input type="checkbox" id="cakeFlavor4" name="cakeFlavor4" value="">
+                    <label for="cakeFlavor4">Tres Leches</label><br>
+                </div>
+                <div class="right">
+                    <label for="cakeDecoration">Cake decoration:</label><br>
+                    <input type="checkbox" id="decoration1" name="decoration1" value="">
+                    <label for="decoration1">Cake candles</label><br>
+                    <input type="checkbox" id="decoration2" name="decoration2" value="">
+                    <label for="decoration2">Cake sparkler candle</label><br>
+                    <input type="checkbox" id="decoration3" name="decoration3" value="">
+                    <label for="decoration3">Happy Birthday</label><br>
+                    <input type="checkbox" id="decoration4" name="decoration4" value="">
+                    <label for="decoration4">Happy Anniversary</label><br>
+                    <input type="checkbox" id="decoration5" name="decoration5" value="">
+                    <label for="decoration5">Happy Mother's Day</label><br>
+                    <input type="checkbox" id="decoration6" name="decoration6" value="">
+                    <label for="decoration6">Congratulations</label><br>
+                    <input type="checkbox" id="decoration7" name="decoration7" value="">
+                    <label for="decoration7">Thank you</label><br>
+                    <input type="checkbox" id="decoration8" name="decoration8" value="">
+                    <label for="decoration8">I Love You</label><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <label for="cakeAddons">Pick some addons:</label><br>
+                    <input type="checkbox" id="add1" name="add1" value="">
+                    <label for="add1">Add one dozen cookies. +$7.99</label><br>
+                    <input type="checkbox" id="add2" name="add2" value="">
+                    <label for="add2">Add vanilla ice cream. +$7.99</label><br>
+                    <input type="checkbox" id="add3" name="add3" value="">
+                    <label for="add3">Add ribbon. +$0.99</label><br>
+                </div>
+                <div class="right">
+                    <label for="ocassion">Ocassion:</label><br>
+                    <select id="ocassion" name="ocassion">
+                        <option value="Happy birthday">Happy birthday</option>
+                        <option value="Best wishes">Best wishes</option>
+                        <option value="Happy anniversary">Happy anniversary</option>
+                        <option value="Congratulations">Congratulations</option>
+                        <option value="Mother's day">Mother's day</option>
+                        <option value="Thank you">Thank you</option>
+                        <option value="Love">Love</option>
+                        <option value="Get well soon">Get well soon</option>
+                        <option value="I'm sorry">I'm sorry</option>
+                    </select>
+                    <br>
+
+                    <label for="quantity">Quantity:</label><br>
+                    <input type="number" id="quantity" name="quantity" value="1">
+
+                    <br>
+                    <label for="deliveryDate">Choose a delivery date:</label><br>
+                    <input type="date" id="deliveryDate" name="deliveryDate"><br><br>
+                </div>
+            </div>
+            <div class="row row-center">
+                <input class="button" type="submit" value="Add to shipping cart">
+            </div>
+            
+            
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="deco">
+
+    </div>
+
+    <div class="footer-overlay">
+        <div class="row">
+            <div class="col4 footer-address">Av. 5vertice #123<br>Col. Innovacción<br>Guadalupe, Nuevo León<br>México C.P. 64000</div>
+            <div class="col4 footer-design">
+                <a class="footer-social" href="#"><img class="footer-social" src="img/icon-whatsapp.png"></a>
+                <a class="footer-social" href="#"><img class="footer-social" src="img/icon-facebook.png"></a>
+                <a class="footer-social" href="#"><img class="footer-social" src="img/icon-twitter.png"></a>
+                <a class="footer-social" href="#"><img class="footer-social" src="img/icon-instagram.png"></a>
+                <div class="footer-designed">Designed by 5vertice Software Solutions, 2022.</div>
+            </div>
+            <div class="col4 footer-contact">
+                <a class="footer-mail" href="mailto:order@cake-co.com">order@cake-co.com</a>
+                <div class="phone">(987) 654 3210</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

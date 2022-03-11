@@ -1,0 +1,337 @@
+.header
+{
+    background-color: var(--secondary-light);
+    background-image: url('../img/background.jpg');
+}
+
+.header-logo
+{
+    height: 90px;
+}
+
+.logo
+{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.deco
+{
+
+    background-image: url('../img/bg-breadcrumb.jpg');
+
+    height: 8px;
+}
+
+.deco-top
+{
+    margin-top: -20px;
+}
+
+.nav
+{
+    background-image: url('../img/bg-breadcrumb.jpg');
+    font-size: 0.8rem;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+
+    border-radius: 5px;
+
+    color: var(--secondary-light);
+    font-weight: bold;
+}
+
+.nav a
+{
+    color: var(--secondary-light);
+    background-color: rgb(46, 34, 30, 0.8);
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+
+    text-align: center;
+
+    background-color: var(--secondary-dark);
+}
+
+.menu-dripping
+{
+    background-image: url('../img/dripping.png');
+    background-repeat: repeat;
+    height: 60px;
+}
+
+.menu a
+{
+    color: var(--secondary-light);
+}
+
+.menu a:hover
+{
+    color: var(--primary-medium);
+}
+
+.menu-ul
+{
+    margin: 0 0 0 0;
+
+    list-style: none;
+    position: relative;
+    overflow-wrap: break-word;
+
+    vertical-align: baseline;
+
+    text-align: center;
+
+    /* border: 1px solid; */ 
+
+    display: inline-block;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px
+}
+
+.menu-item
+{
+    padding: 0 0 0 0;
+    margin: 10px 20px 0px 20px;
+
+    display: inline-block;
+
+    align-items: center;
+    -webkit-box-align: center;
+
+    /* border: 1px solid; */
+}
+
+.title-container
+{
+    position: relative;
+    width: 100%;
+
+    /* Makes dish overlaps drips */
+    margin-top: -10px;
+
+    /*border: 1px solid purple;*/
+}
+
+.dishes-container
+{
+    width: 530px;
+    margin-left: 2px;
+
+}
+
+.round-dish
+{
+    width: 400px;
+    height: 400px;
+
+    border-radius: 50%;
+
+    outline: 10px solid rgb(255, 255, 255);
+
+    box-shadow: 15px 15px 15px 2px var(--secondary-dark);
+
+    margin-top: 16px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.title
+{
+    /* Works with .title-container */
+    /* Elements are positioned */
+    position: absolute;
+
+    top: 0px;
+    width:100%;
+    height:90%;
+
+    /*border: 1px solid green;*/
+}
+
+.title-big-noleftmargin
+{
+    position: absolute;
+    /* Make it overlap */
+    top: -50px;
+    width:75%;
+    left: 0%;
+}
+
+.title-big
+{
+    position: absolute;
+    /* Make it overlap */
+    top: -50px;
+    width:40%;
+    left: 30%;
+}
+
+.title h1 
+{
+    font-family: 'Playfair Display';
+    font-weight: bolder;
+    font-size: 6rem;
+
+    text-align: center;
+
+    text-shadow: 3px 3px 2px var(--secondary-dark);
+
+    left: 15%;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .title-big
+    {
+        width: 45%;
+        left: 30%;
+    }
+
+    .title-big h1
+    {
+        text-align: right;
+        font-size: 5rem;
+    }
+
+    .title-big-noleftmargin
+    {
+    }
+
+    .title-big-noleftmargin h1
+    {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 992px)
+{
+    .title-big
+    {
+        width: 60%;
+        left: 10%;  
+    }
+
+    .title-big h1
+    {
+        text-align: right;
+        font-size: 5rem;
+    }
+
+    .title-big-noleftmargin h1
+    {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .title-big
+    {
+        width: 65%;
+        left: 10%;
+    }
+
+    .title-big h1
+    {
+        text-align: right;
+        font-size: 4.4rem;
+    }
+
+    .title-big-noleftmargin h1
+    {
+        font-size: 4.4rem;
+    }
+}
+
+@media only screen and (max-width: 576px)
+{
+    .title-big
+    {
+        top: -10px;
+        width: 70%;
+        left: 0%;
+    }
+
+    .title-big h1
+    {
+        font-size:4rem;
+
+        text-align: right;
+    }
+
+    .title-big-noleftmargin h1
+    {
+        font-size: 4rem;
+    }
+}
+
+.title-right
+{
+    position: absolute;
+    text-align: right;
+
+    top: 20px;
+    left: 75%;
+    width:25%;
+
+    /*border: 1px solid orange;*/
+}
+
+.title-right .quote
+{
+    font-family: 'Playfair Display';
+    font-size: 9rem;
+
+    margin-top: -50px;
+
+    margin-right: 6px;
+}
+
+.title-right .quote-text
+{
+    font-family: 'Playfair Display';
+    color: var(--secondary-dark);
+    font-size: 1.5rem;
+    margin-top: -7rem;
+
+    text-shadow: 2px 2px 1px white;
+}
+
+.title-right .quote-author
+{
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.button
+{
+    font-size: 16pt;
+    padding: 10px 20px 10px 20px;
+
+    border-width: 0px;
+    border-style: solid;
+
+    color: var(--secondary-light);
+    background-color: var(--primary-medium);
+}

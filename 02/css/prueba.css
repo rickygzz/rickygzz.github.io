@@ -1,0 +1,23 @@
+.contenedor
+{
+    background-color:aqua;
+    border-style: solid;
+    border-width: 1px;
+    border-color:brown;
+
+    height:400px;
+    width:400px;
+
+    display: relative;
+}
+
+.posicionado
+{
+    background-color: darkgoldenrod;
+
+    display: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+}
