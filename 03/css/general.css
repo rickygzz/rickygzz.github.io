@@ -769,13 +769,13 @@ a:link, a:visited, a:hover
     display: flex;
 
     max-width: 1920px;
-
-    padding-left: 190px;
 }
 
 .sectionF-left
 {
     max-width: 1071px;
+
+    padding-left: 190px;
 }
 
 .sectionF-left h1
