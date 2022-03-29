@@ -1,0 +1,399 @@
+:root
+{
+    --screen-bg: #f1f2d3;
+    --screen-bg2: #d9db96;
+    --screen-border: #a8a7a4;
+    --screen-border2: #dbdbdb;
+
+    --text-dark: #1f3e72;
+}
+
+body
+{
+    background-color: #c0c0c0;
+
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 700;
+
+    text-align: center;
+}
+
+.pokemonFlavor
+{
+    background-color: #31a7f1;
+
+    overflow-y: scroll;
+    height:150px;
+
+    font-size: 12pt;
+    font-weight: 400;
+
+    width: 480px;
+}
+
+.pokemonFlavor p
+{
+    margin: 10px;
+
+    text-align: justify;
+}
+
+.pokemonEvolution
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+
+}
+
+.pokedex
+{
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.left-side
+{
+    background-color: #bd0f34;
+
+    border-left: 15px solid #951828;
+    border-bottom: 15px solid #951828;
+
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px;
+
+    width: 450px;
+    max-width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-side
+{
+    background-color: #bd0f34;
+
+    border-right: 15px solid #951828;
+    border-bottom: 15px solid #951828;
+
+    border-radius: 15px;
+
+    padding: 20px 20px 20px 20px;
+
+    width: 480px;
+    max-width: 480px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls
+{
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    width: 100%;
+}
+
+.pokeName
+{
+    background-color: #55ab62;
+    background: linear-gradient(125deg, #55ab62 0%, #3b7043 100%);
+
+    padding: 15px 10px 15px 10px;
+
+    border-radius: 5px;
+
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14pt;
+    font-weight: 600;
+
+    width: 300px;
+}
+
+.pokeName::placeholder
+{
+    color: #d0d0d0;
+}
+
+.pokeName:hover
+{
+    background: linear-gradient(125deg, #70c67b 0%, #568a5c 100%);
+}
+
+.searchByNameButton
+{
+    color: #dedede;
+    background-color: #222222;
+
+    border-radius: 50%;
+
+    padding: 20px 20px 20px 20px;
+}
+
+.searchByNameButton:hover
+{
+    background-color: #373737;
+}
+
+.nextButton
+{
+    color: #dedede;
+    background-color: #095378;
+
+    border-radius: 15px;
+
+    padding: 5px 20px 5px 20px;
+}
+
+.nextButton:hover
+{
+    background-color: #0b6592; 
+}
+
+.prevButton
+{
+    color: #2e2b10;
+    background-color: #c5b945;
+
+    border-radius: 15px;
+
+    padding: 5px 20px 5px 20px;
+}
+
+.prevButton:hover
+{
+    background-color: #d8ca4e;
+}
+
+.screen-border
+{
+    display: flex;
+    justify-content: center;
+
+    background-color: #dedede;
+
+    border-radius: 20px;
+    border-bottom-left-radius: 90px;
+
+    border-left: 10px solid #6a6a72;
+    border-bottom: 10px solid #6a6a72;
+
+
+
+    padding: 30px 30px 60px 30px;
+
+    width: 350px;
+
+
+    box-shadow: 0px 8px 20px #80605b;
+}
+
+
+.screen
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    padding: 40px 40px 40px 40px;
+
+    border-left: 2px solid var(--screen-border2);
+    border-top: 2px solid var(--screen-border2);
+    border-right: 2px solid var(--screen-border);
+    border-bottom: 2px solid var(--screen-border);
+
+    border-radius: 15px;
+
+    background-color: var(--button-bg-dark1);
+    background: linear-gradient(125deg, var(--screen-bg) 0%, var(--screen-bg2) 100%);
+}
+
+.screen img
+{
+    width: 180px;
+}
+
+.screen p
+{
+    text-transform: capitalize;
+}
+
+.stats
+{
+    display: flex;
+    /* flex-direction: column; align-items: flex-start; justify-content: flex-start;*/
+
+    justify-content: space-evenly;
+
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14pt;
+
+    border-radius: 15px;
+
+    color: #f1f2d3;
+    /* background-color: #032d29; */
+    background: linear-gradient(125deg, #063a36 0%, #051816 100%);
+
+    border-left: 2px solid var(--screen-border2);
+    border-top: 2px solid var(--screen-border2);
+    border-right: 2px solid var(--screen-border);
+    border-bottom: 2px solid var(--screen-border);
+
+    padding: 10px 10px 10px 10px;
+
+    width: 460px;
+}
+
+.stats-col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Bar */
+.level
+{
+    display: flex;
+    align-items: flex-start;
+
+    background-color: black;
+    background-image: url('../img/level.png');
+
+    width: 23px;
+    height: 120px;
+
+    border-left: 1px solid var(--screen-border2);
+    border-top: 1px solid var(--screen-border2);
+    border-right: 1px solid var(--screen-border);
+    border-bottom: 1px solid var(--screen-border);
+}
+
+.level-value
+{
+    background-color: black;
+
+    background-image: url('../img/level-off.png');
+
+    width: 23px;
+}
+
+.level-text
+{
+    display: block;
+    text-align: center;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Type Colors */
+
+.type
+{
+    padding: 5px 5px 5px 5px;
+    margin: 3px 3px 3px 3px;
+
+    border-radius: 4px;
+}
+
+.electric
+{
+    background-color: #FFEA70;
+}
+
+.normal
+{
+    background-color: #B09398;
+}
+
+.fire
+{
+    background-color: #FF675C;
+}
+
+.water
+{
+    background-color: #0596C7;
+}
+
+.ice
+{
+    background-color: #AFEAFD;
+}
+
+.rock
+{
+    background-color: #999799;
+}
+
+.flying
+{
+    background-color: #7AE7C7;
+}
+
+.grass
+{
+    background-color: #4A9681;
+}
+
+.psychic
+{
+    background-color: #FFC6D9;
+}
+
+.ghost
+{
+    background-color: #561D25;
+}
+
+.bug
+{
+    background-color: #A2FAA3;
+}
+
+.poison
+{
+    color: white;
+    background-color: #795663;
+}
+
+.ground
+{
+    background-color: #D2B074;
+}
+
+.dragon
+{
+    background-color: #DA627D;
+}
+
+.steel
+{
+    background-color: #1D8A99;
+}
+
+.fighting
+{
+    color: white;
+    background-color: #2F2F2F;
+}
+
+.default
+{
+    color: white;
+    background-color: #2A1A1F;
+}

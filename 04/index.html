@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+
+    <link rel="stylesheet" href="css/pokedex.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Permanent+Marker&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body onload="initialScreen()">
+    <img src="img/pokedex.png">
+    <h1>Pokedex LaunchX</h1>
+
+    <div class="pokedex">
+        <div class="left-side">
+            <div class="screen-border">
+                <div class="screen">
+                    <img src="img/pokeball.jpg" alt="Pokemon" id="pokeImg">
+                    <p>
+                        <span id="pokemonNumber"></span><span id="pokemonName"></span>
+                    </p>
+                    <p id="pokemonType"></p>
+                    <p id="pokemonWeakness"></p>
+    
+                    <div id="pokemonWeight"></div>
+                    <div id="pokemonHeight"></div>
+                    <div id="pokemonAbilities"></div>
+                </div>
+            </div>
+            <div class="controls">
+                <div style="padding: 15px;">
+                    <button onclick="PrevPokemon()" class="prevButton">&lt; Prev</button>
+                    <button onclick="NextPokemon()" class="nextButton">Next &gt;</button>
+                </div>
+
+                <div style="padding: 15px;">
+                    <input type="text" placeholder="Enter name or id number" class="pokeName" id="pokeName" name="pokeName" onkeydown="if (event.keyCode == 13) { GetPokemonByName(); return false; }">
+                    <button onclick="GetPokemonByName()" class="searchByNameButton">Search</button>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+        <div class="right-side">
+            <div class="stats">
+                <div id="pokemonHP"></div>
+                <div id="pokemonAttack"></div>
+                <div id="pokemonDefense"></div>
+                <div id="pokemonSpecialAttack"></div>
+                <div id="pokemonSpecialDefense"></div>
+                <div id="pokemonSpeed"></div>
+            </div>
+    
+            <div>
+                <div><h2>Species information:</h2></div>
+                <div class="pokemonFlavor" id="pokemonFlavor"></div>
+            </div>
+
+            <div style="width:100%">
+                <div><h2>Evolution:</h2></div>
+                <div class="pokemonEvolution" id="pokemonEvolution">
+                    <div id="pokemonEvolution1"></div>
+                    <div id="pokemonEvolution2"></div>
+                    <div id="pokemonEvolution3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script src="js/pokedex.js"></script>
+</footer>
+</html>
