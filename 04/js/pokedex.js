@@ -20,6 +20,7 @@ const pAbilities = document.getElementById("pokemonAbilities");
 const pWeight = document.getElementById("pokemonWeight");
 const pHeight = document.getElementById("pokemonHeight");
 
+const pMoves =  document.getElementById("pokemonMoves");
 const pFlavor = document.getElementById("pokemonFlavor");
 
 const pEvolution1 = document.getElementById("pokemonEvolution1");
@@ -284,6 +285,8 @@ const updateScreen = (data) =>
 
         pWeight.innerHTML = 'Weight: ' + toDec(weight, 2) + ' lb';
         pHeight.innerHTML = 'Height: ' + toInt(heightFt) + "\' " + round(heightIn) + "\"";
+
+        updateMoves(data.moves);
     
         updateAbilities(data.abilities);
     
@@ -309,6 +312,23 @@ const updateScreen = (data) =>
 
         zeroStats();
     }
+}
+
+const updateMoves = (data) =>
+{
+    if (!data)
+    {
+        pMoves.innerHTML = '';
+        return;
+    }
+
+    html = '';
+    for (i = 0; i < data.length; i++)
+    {
+        html += data[i].move.name + ' - ';
+    }
+
+    pMoves.innerHTML = html;
 }
 
 const updateFlavor = (data) =>
