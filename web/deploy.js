@@ -1,7 +1,7 @@
 const { readdirSync, rmSync, cpSync } = require('fs');
 const path = require('path');
 
-const dirDestination = '../web';
+const dirDestination = '../docs';
 const dirSource = './build';
 const excludeFolder = 'portfolio';
 
