@@ -284,7 +284,7 @@
                     <Shortcut Command="Edit.MoveControlUp" Scope="HTML Editor Design View">Ctrl+Up Arrow</Shortcut>
                     <Shortcut Command="Edit.Duplicate" Scope="Resource Explorer">Ctrl+D</Shortcut>
 
-                    <Shortcut Command="Build.BuildSelection" Scope="Global">Ctrl+Shift+B</Shortcut>
+                    <Shortcut Command="Build.BuildSolution" Scope="Global">Ctrl+Shift+B</Shortcut>
                     <Shortcut Command="Build.CleanSolution" Scope="Global">Ctrl+Shift+C</Shortcut>
                     <Shortcut Command="Build.RebuildSolution" Scope="Global">Ctrl+Shift+R</Shortcut>
 

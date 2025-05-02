@@ -15,7 +15,7 @@ A few minutes spent tailoring shortcuts today will reward you with sharper conce
 
 ## Download
 
-[Download extensions](files/VS_shortcuts.vssettings)
+[Download extensions](/files/VS_shortcuts.vssettings)
 
 ## Tab navigation
 
