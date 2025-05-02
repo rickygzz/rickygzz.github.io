@@ -13,6 +13,10 @@ With fewer visual distractions and less arm movement, you can focus on meaningfu
 A few minutes spent tailoring shortcuts today will reward you with sharper concentration, a steadier rhythm, and a more enjoyable coding experience every day after.
 
 
+## Download
+
+[Download extensions](files/VS_shortcuts.vssettings)
+
 ## Tab navigation
 
 | Shortkey            | VS Code | Visual Studio | Description |
@@ -21,7 +25,9 @@ A few minutes spent tailoring shortcuts today will reward you with sharper conce
 | `Ctl`+`Alt`+`PgUp`  |                               | `Window.PreviousTab` | Previous tab |
 | `Ctl`+`w`           | `View: Close Editor`          | `Window.CloseDocumentWindow` use in `Text editor` | Close file |
 | `Ctl`+`s`           | `workbench.action.files.save` | `File.Save`          | Save file    |
-
+| `Ctl`+`Alt`+`Right Arrow`| | `Window.NewVerticalTabGroup` use in `Text Editor`  | New Tab group |
+| `Ctl`+`Alt`+`Left Arrow` | | `Window.MovetoPreviousTabGroup` use in `Text Editor` | Move to previous tab group |
+| `Ctl`+`Alt`+`Down Arrow` | | `Window.Split` use in `Text Editor` | Move to previous tab group |
 
 ## Panels
 
@@ -40,7 +46,8 @@ A few minutes spent tailoring shortcuts today will reward you with sharper conce
 
 | Shortkey              | VS Code | Visual Studio | Description |
 | --------------------- | ------- | ------------- | ----------- |
-| `Shift`+`Alt`+`f`     | `editor.action.formatDocument` | `Edit.FormatDocument` used in `Text Editor` | Format document |
+| `Shift`+`Alt`+`d`     | `editor.action.formatDocument` | `Edit.FormatDocument` used in `Text Editor` | Format document |
+| `Shift`+`Alt`+`s`     | `editor.action.formatDocument` | `Edit.FormatSelection` used in `Text Editor` | Format document |
 
 
 ## File explorer
