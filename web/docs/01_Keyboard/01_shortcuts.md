@@ -13,9 +13,12 @@ With fewer visual distractions and less arm movement, you can focus on meaningfu
 A few minutes spent tailoring shortcuts today will reward you with sharper concentration, a steadier rhythm, and a more enjoyable coding experience every day after.
 
 
-## Download
+## Download 
 
-[Download extensions](/files/VS_shortcuts.vssettings)
+* Visual Studio Shortcuts Configuration
+
+<a href="https://github.com/rickygzz/rickygzz.github.io/blob/main/web/portfolio/files/VS_shortcuts.vssettings" download="VS_shortcuts.vssettings" target="_blank">Download configurations file</a>
+
 
 ## Tab navigation
 

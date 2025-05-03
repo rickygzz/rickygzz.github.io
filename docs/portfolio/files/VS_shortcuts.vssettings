@@ -146,8 +146,6 @@
 
                     <Shortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Q</Shortcut>
 
-                    <Shortcut Command="EditorContextMenus.CodeWindow.RemoveAndSort" Scope="Global">Ctrl+R, Ctrl+G</Shortcut>
-
                     <Shortcut Command="Refactor.EncapsulateField" Scope="Global">Ctrl+R, Ctrl+E</Shortcut>
                     <Shortcut Command="Refactor.ExtractInterface" Scope="Global">Ctrl+R, Ctrl+I</Shortcut>
                     <Shortcut Command="Refactor.ExtractMethod" Scope="Global">Ctrl+R, Ctrl+M</Shortcut>
@@ -160,6 +158,7 @@
                     <Shortcut Command="Debug.ReverseContinue" Scope="Global">Ctrl+R, F5</Shortcut>
                     <Shortcut Command="Debug.StepBackOut" Scope="Global">Ctrl+R, Shift+F11</Shortcut>
 
+                    <Shortcut Command="EditorContextMenus.CodeWindow.RemoveAndSort" Scope="Global">Ctrl+R, Ctrl+G</Shortcut>
                     <Shortcut Command="EditorContextMenus.CodeWindow.RemoveAndSort" Scope="Global">Ctrl+R, G</Shortcut>
 
                     <Shortcut Command="TestExplorer.RunAllTests" Scope="Global">Ctrl+R, A</Shortcut>

@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/rickygzz/rickygzz.github.io',
+            'https://github.com/rickygzz/rickygzz.github.io/blob/main/web/',
         },
         blog: false,
         theme: {
