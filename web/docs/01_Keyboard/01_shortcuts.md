@@ -17,7 +17,7 @@ A few minutes spent tailoring shortcuts today will reward you with sharper conce
 
 * Visual Studio Shortcuts Configuration
 
-<a href="https://github.com/rickygzz/rickygzz.github.io/blob/main/docs/portfolio/files/VS_shortcuts.vssettings" download="VS_shortcuts.vssettings" target="_blank">Download configurations file</a>
+<a href="https://github.com/rickygzz/rickygzz.github.io/raw/main/docs/portfolio/files/VS_shortcuts.vssettings" download="VS_shortcuts.vssettings" target="_blank">Download configurations file</a>
 
 
 ## Tab navigation
