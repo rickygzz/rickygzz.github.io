@@ -2,7 +2,9 @@
 sidebar_position: 3
 ---
 
-# Setting up shortcutsLines
+# Vim
+
+## Lines
 
 | Shortkey            | Description    |
 | ------------------- | -------------- |

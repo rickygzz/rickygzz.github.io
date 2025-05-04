@@ -1,0 +1,20 @@
+inoremap jj <Esc>
+
+nnoremap <C-r> <Nop>
+inoremap <C-r> <Nop>
+vnoremap <C-r> <Nop>
+
+nnoremap <C-A-Up> <Nop>
+nnoremap <C-A-Down> <Nop>
+nnoremap <C-A-Left> <Nop>
+nnoremap <C-A-Right> <Nop>
+
+inoremap <C-A-Up> <Nop>
+inoremap <C-A-Down> <Nop>
+inoremap <C-A-Left> <Nop>
+inoremap <C-A-Right> <Nop>
+
+vnoremap <C-A-Up> <Nop>
+vnoremap <C-A-Down> <Nop>
+vnoremap <C-A-Left> <Nop>
+vnoremap <C-A-Right> <Nop>

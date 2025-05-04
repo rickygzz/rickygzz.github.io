@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Benefits of custom shortcuts
+# Shortcuts
+
+## Benefits of custom shortcuts
 
 Configuring custom keyboard shortcuts in your IDE (mine is Visual Studio and VS Code) is a small upfront investment that pays for itself almost immediately. By relying less on the mouse and ***keeping your hands on the keyboard***, you eliminate the tiny pauses that accumulate whenever you reach for menus or toolbars. Those saved seconds add up over a full workday.
 
@@ -15,9 +17,9 @@ A few minutes spent tailoring shortcuts today will reward you with sharper conce
 
 ## Download 
 
-* Visual Studio Shortcuts Configuration
+* <a href="https://raw.githubusercontent.com/rickygzz/rickygzz.github.io/main/docs/portfolio/files/VS_shortcuts.vssettings" download="VS_shortcuts.vssettings" target="_blank">Download Visual Studio configurations vssettings file</a>
 
-<a href="https://raw.githubusercontent.com/rickygzz/rickygzz.github.io/main/docs/portfolio/files/VS_shortcuts.vssettings" download="VS_shortcuts.vssettings" target="_blank">Download configurations file</a>
+* <a href="https://raw.githubusercontent.com/rickygzz/rickygzz.github.io/main/docs/portfolio/files/Users/AppData/Roaming/Code/User" download="keybindings.json" target="_blank">Download Visual Code key bindings file</a>
 
 
 ## Tab navigation
@@ -41,7 +43,7 @@ A few minutes spent tailoring shortcuts today will reward you with sharper conce
 | `Alt`+`g`             | `View: Show Source Control` | `View.GitWindow` use in `Global`                | Show git window               |
 | `Alt`+`t`             |                             | `TestExplorer.ShowTestExplorer` use in `Global` | Show test results window      |
 | `Alt`+`e`             |                             | `View.ErrorList` use in `Global`                | Error list window             |
-| `Alt`+`c`             |                             | `View.Terminal` use in `Global`                 | Console (terminal) window     |
+| `Alt`+`c`             | `View: Toggle terminal` when `terminal.active` | `View.Terminal` use in `Global`                 | Console (terminal) window     |
 | `Alt`+`o`             |                             | `View.Output` use in `Global`                   | Output window                 |
 
 
