@@ -19,7 +19,7 @@ A few minutes spent tailoring shortcuts today will reward you with sharper conce
 
 [VS_shortcuts.vssettings](pathname:///portfolio/files/VS_shortcuts.vssettings)
 
-[keybindings.json](pathname:///portfolio/files/users/AppData/keybindings.json)
+[keybindings.json](pathname:///portfolio/files/Users/AppData/Roaming/Code/User/keybindings.json)
 
 
 ## Tab navigation
