@@ -17,9 +17,9 @@ A few minutes spent tailoring shortcuts today will reward you with sharper conce
 
 ## Download 
 
-* <a href="https://raw.githubusercontent.com/rickygzz/rickygzz.github.io/main/docs/portfolio/files/VS_shortcuts.vssettings" download="VS_shortcuts.vssettings" target="_blank">Download Visual Studio configurations vssettings file</a>
+[VS_shortcuts.vssettings](pathname:///portfolio/files/VS_shortcuts.vssettings)
 
-* <a href="https://raw.githubusercontent.com/rickygzz/rickygzz.github.io/main/docs/portfolio/files/Users/AppData/Roaming/Code/User" download="keybindings.json" target="_blank">Download Visual Code key bindings file</a>
+[keybindings.json](pathname:///portfolio/files/users/AppData/keybindings.json)
 
 
 ## Tab navigation
