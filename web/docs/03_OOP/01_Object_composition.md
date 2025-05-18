@@ -25,5 +25,3 @@ Composition offers flexibility and modularity. With inheritance, you get locked 
 1. Can we inherit from two classes?
 
 2. Can an interface have an implementation?
-
-3.
